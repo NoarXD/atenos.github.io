@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+  background-image: url('../img/background.png');
+  font-family: 'Kanit', sans-serif;
+  color: #FFFFFF;
+  background-attachment: fixed;
+  background-size: 110%;
+  height: 1000px;
+}
+.menuBoard{
+  width: 100%;
+  height: 50px;
+  background: #191919;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-radius: 5px;
+}
+.menuBoard img{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: solid;
+  position: absolute;
+  top: 8px;
+  border-color: #FFFFFF;
+  
+}
+div.menuText{
+  position: absolute;
+  left: 60px;
+  height: 50px;
+  top: 9px;
+}
+div.menuText a {
+  display: inline-block;
+	color: white;
+	text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  height: 33px;
+}
+div.shop img{
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 18px;
+  border-style: solid;
+}
+div.about_server{
+  width: 95%;
+  height: 220px;
+  position: relative;
+  top: 100px;
+  left: 10px;
+  background: #191919;
+  border-style: solid;
+  border-radius: 18px;
+  
+}
+div.about_server p{
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+div.about_web{
+  width: 95%;
+  height: 200px;
+  position: relative;
+  top: 120px;
+  left: 10px;
+  background: #191919;
+  border-style: solid;
+  border-radius: 18px;
+  
+}
+div.about_web p{
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+div.boardDonate{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 70px;
+  background: #191919;
+  border-style: solid;
+  border-radius: 18px;
+  
+  
+}
+div.boardDonate p{
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  padding: initial;
+}
+div.boardDonate h2{
+  position: relative;
+  top: -21px;
+  left: -5px;
+  background: #191919;
+  width: 150px;
+  border-style: solid;
+  border-radius: 18px;
+  text-align: center;
+  
+}
+.ip{
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 10px;
+  background: #191919;
+  border-style: solid;
+  border-radius: 18px;
+}
+div.ip h1{
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+div.ip h2{
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+div.contact{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 140px;
+  background: #191919;
+  border-style: solid;
+  border-radius: 18px;
+}
+.discord {
+  width: 323px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #008FFF;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.facebook {
+  width: 323px;
+  height: 30px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  background: #003FFF;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.youtube {
+  width: 323px;
+  height: 30px;
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  background: #FF0000;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  
+}
